@@ -105,12 +105,14 @@ if st.button("🚀 Run AQI Prediction Demo"):
     st.success(f"✅ Model trained successfully! RMSE = {rmse:.2f}")
     st.write(f"Suggested safe route grid path: {path}")
     st_folium(m, width=900, height=600)
-numpy
-pandas
-xgboost
-scikit-learn
-scipy
-folium
-networkx
-streamlit
-streamlit-folium
+numpy==1.26.2
+pandas==2.1.1
+xgboost==1.6.2
+scikit-learn==1.3.0
+scipy==1.11.1
+folium==0.18.3
+networkx==3.1
+streamlit==1.27.1
+streamlit-folium==0.13.0
+
+
